@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <h1 align="center"> Infografia Jugadores</h1>
+
+    <div class="cjp card-columns">
+        <div class="card" *ngFor="let jugadoress of jugadores">
+            <a [routerLink]="jugadoress.l">
+                <img class="card img" [src]="jugadoress.img" alt="card image">
+                <p>{{jugadoress.nombre}}</p>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

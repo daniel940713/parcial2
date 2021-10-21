@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+
+.p {
+    margin: 0 auto;
+    padding: 20px;
+    width: 60%;
+}
+.btn {
+    float: right;
+    margin-top: -50px;
+}
+
+.boton1 {
+    background-color: aqua;
+}
+
